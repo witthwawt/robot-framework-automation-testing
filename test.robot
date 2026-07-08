@@ -28,8 +28,8 @@ Scenario 2: WordPress Login Fail With Wrong user and Password
 
 Scenario 3: WordPress Login Success
     Wait Until Element Is Visible    id=user_login    timeout=10s
-    Input Text       id=user_login    admin
-    Input Text       id=user_pass     0h8uZJdHzV2B0bBD1)Zju(eS
+    Input Text       id=user_login    ${VALID_PASSWORD}
+    Input Text       id=user_pass     ${VALID_PASSWORD}
     Click Button     id=wp-submit
     Wait Until Location Is    ${ADMIN_URL}    timeout=15s
     Wait Until Element Is Visible    id=adminmenu    timeout=10s
