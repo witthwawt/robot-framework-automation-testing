@@ -1,0 +1,23 @@
+# --- Robot Framework Output Files ---
+# บล็อกไฟล์รายงานผลการเทสที่จะถูกสร้างใหม่ทุกครั้งตอนรัน
+output.xml
+log.html
+report.html
+
+# บล็อกภาพแคปหน้าจอหลักฐานตอนที่เทสพังหรือสั่งแคปจอ
+*.png
+*.jpg
+*.jpeg
+
+# --- Python & VS Code Cache ---
+# บล็อกไฟล์ระบบและไฟล์แคชของโปรแกรมที่ไม่จำเป็นต้องส่งขึ้น Git
+__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
