@@ -34,26 +34,26 @@ Scenario 3: WordPress Login Success
     Wait Until Location Is    ${ADMIN_URL}    timeout=15s
     Wait Until Element Is Visible    id=adminmenu    timeout=10s
 
-    # 1. คลิกที่ แผงควบคุมrobot test.robot
+# 1. คลิกที่ แผงควบคุมrobot test.robot
     Click Link                       xpath=//a[.='แผงควบคุม']
     Wait Until Location Is           https://pgstar777-guru.com/wp-admin/index.php    timeout=10s
 
-    # 2. คลิกที่ Flatsome
+# 2. คลิกที่ Flatsome
     Wait Until Element Is Visible    xpath=//a[contains(., 'Flatsome')]    timeout=10s
     Click Element                    xpath=//a[contains(., 'Flatsome')]
     Wait Until Location Is           https://pgstar777-guru.com/wp-admin/admin.php?page=flatsome-panel    timeout=10s
 
-    # 3. คลิกที่ เรื่อง
+# 3. คลิกที่ เรื่อง
     Wait Until Element Is Visible    xpath=//div[contains(@class, 'wp-menu-name') and .='เรื่อง']    timeout=10s
     Click Element                    xpath=//div[contains(@class, 'wp-menu-name') and .='เรื่อง']
     Wait Until Location Is           https://pgstar777-guru.com/wp-admin/edit.php    timeout=10s
 
-    # 4. คลิกที่ Portfolio
+# 4. คลิกที่ Portfolio
     Wait Until Element Is Visible    xpath=//a[contains(., 'Portfolio')]    timeout=10s
     Click Element                    xpath=//a[contains(., 'Portfolio')]
     Wait Until Location Is           https://pgstar777-guru.com/wp-admin/edit.php?post_type=featured_item    timeout=10s
 
-    # 5. คลิกที่ สื่อ
+# 5. คลิกที่ สื่อ
     Wait Until Element Is Visible    xpath=//div[contains(@class, 'wp-menu-name') and .='สื่อ']    timeout=10s
     Click Element                    xpath=//div[contains(@class, 'wp-menu-name') and .='สื่อ']
     Wait Until Location Is           https://pgstar777-guru.com/wp-admin/upload.php    timeout=10s
