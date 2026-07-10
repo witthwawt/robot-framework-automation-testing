@@ -38,6 +38,14 @@ env/
 # ==========================================
 # Operating System
 # ==========================================
+# Robot Framework Reports
+log.html
+report.html
+output.xml
+
+# Selenium generated screenshots
+selenium-screenshot-1.png
+selenium-screenshot-2.png
 
 .DS_Store
 Thumbs.db
