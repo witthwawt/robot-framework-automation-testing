@@ -13,6 +13,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.robotbook
 
 # ==========================================
 # Virtual Environment
@@ -46,7 +47,7 @@ output.xml
 # Selenium generated screenshots
 selenium-screenshot-1.png
 selenium-screenshot-2.png
-
+selenium-screenshot-*.png
 .DS_Store
 Thumbs.db
 Desktop.ini
